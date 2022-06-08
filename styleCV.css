@@ -1,0 +1,96 @@
+body{
+    display: flex ;
+    flex-direction: row-reverse;
+    line-height: 150% ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    margin: 15px 30px 15px 30px ;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(28, 77, 122);
+    padding: 40px 25px 20px 25px ;
+
+}
+header {
+    background-color: rgb(222, 235, 247);
+    padding: 25px ;
+    text-align: justify ;
+    box-shadow: 5px 5px #aba5a5;
+    border-radius: 1%;
+}
+h1{
+    text-align: start;
+    font-family: "backerville" ;
+    font-weight: bolder;
+    font-size: 50px ;
+    padding-bottom: 3%;
+}
+h2{
+    text-align: center;
+    text-align-last: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px ;
+    color: rgb(46, 116, 181);    
+}
+h3{
+    text-align: center ;
+    font-weight: bold ;
+    border-bottom: 3px solid black;
+    margin-top: 15px ;
+    margin-bottom: 10px ;
+    font-size: 20px ;
+}
+h4{
+    color: rgb(46, 116, 181);
+    font-weight: bold ;
+    font-size: 20px ;
+}
+#conteneur{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end; 
+    font-size: 18px ;  
+}
+#div{
+    display: flex;
+    flex-direction: column;
+}
+.dateville{
+    display: flex;
+
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.interet{
+    text-align: center;
+ 
+}
+h5{
+    text-align: center ;
+    font-weight: bold ;
+    color: white;
+    border-bottom: 3px solid rgb(255, 254, 254);
+    margin-top: 13px ;
+    margin-bottom: 10px ;
+    font-size: 20px ;
+}
+
+.side{
+    color: white;
+    font-size: 18px ;
+}
+.atouts{
+    color: white;
+    text-align: center;
+    text-align-last: justify;
+}
